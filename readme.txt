@@ -1,2 +1,3 @@
-Git非常好用
-Git是免费的
+Git is a version control system
+Git is free software
+Git add text
