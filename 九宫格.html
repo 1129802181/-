@@ -4,29 +4,22 @@
 	<meta charset="UTF-8">
 	<title>九宫格</title>
 	<style type="text/css">
-	body{
-		padding:0px;
-		margin:0px;
-	}
 	
 	.square{
 		margin: 0px auto;
-		height: 250px;
-		width: 250px;
-		background: ;
-		/*float: left;*/
+		height: 90vw;/*vw单位，或者用padding-bottom：100%来实现自适应;使用padding-bottom时，div中不能有内容，否则会出现宽和高不一致的问题  */
+		width: 90vw;
+		
 	}
-	.square11{
-		clear: left;
-	}
+	
 	.square1{
-		height:80px;
-		width:80px;
-		background: red;
+		height: 25vw;
+		width:25vw;
+		background: yellow;
 		float: left;
-		margin: 1px;
-		border-radius: 10px;
-		text-align: center;
+		margin: 1vw;
+		border-radius: 3vw;
+		
 		
 
 	}
@@ -35,21 +28,17 @@
 	
 </head>
 <body>
+
 <div class="square">
-	<div class="square11">
-		<div class="square1">1</div>
-		<div class="square1">2</div>
-		<div class="square1">3</div>
-	</div>
-	<div class="square11"> 
-		<div class="square1">4</div>
-		<div class="square1">5</div>
-		<div class="square1">6</div>	
-	</div>
-	<div class="square11">
-		<div class="square1">7</div>
-		<div class="square1">8</div>
-		<div class="square1">9</div>
+		<div class="square1"></div>
+		<div class="square1"></div>
+		<div class="square1"></div>
+		<div class="square1"></div>
+		<div class="square1"></div>
+		<div class="square1"></div>	
+		<div class="square1"></div>
+		<div class="square1"></div>
+		<div class="square1"></div>
 	</div>
 </div>	
 </body>
